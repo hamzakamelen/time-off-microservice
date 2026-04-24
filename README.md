@@ -10,7 +10,13 @@ A production-hardened NestJS microservice that manages employee time-off request
 - **Node.js:** v18 or higher
 - **NPM:** v9 or higher
 
-### 2. Setup
+### 2. Clone the Repository
+```bash
+git clone https://github.com/hamzakamelen/time-off-microservice.git
+cd time-off-microservice
+```
+
+### 3. Setup
 ```bash
 # 1. Install dependencies
 npm install
@@ -23,7 +29,7 @@ copy .env.example .env
 # (Optional) Edit .env if you want to change ports or keys
 ```
 
-### 3. Run the System
+### 4. Run the System
 You need to run **two** processes simultaneously:
 
 | Terminal | Command | Purpose |
@@ -31,7 +37,7 @@ You need to run **two** processes simultaneously:
 | **Terminal 1** | `npm run start:dev` | Main Time-Off Microservice (Port 3000) |
 | **Terminal 2** | `npm run start:mock-hcm` | Mock HCM Server (Port 3001) |
 
-### 4. Explore the API
+### 5. Explore the API
 Once running, visit the interactive dashboard to see all endpoints:
 👉 **[http://localhost:3000/api/docs](http://localhost:3000/api/docs)** (Swagger UI)
 

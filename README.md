@@ -16,7 +16,10 @@ A production-hardened NestJS microservice that manages employee time-off request
 npm install
 
 # 2. Configure environment
+# On Mac/Linux:
 cp .env.example .env
+# On Windows:
+copy .env.example .env
 # (Optional) Edit .env if you want to change ports or keys
 ```
 

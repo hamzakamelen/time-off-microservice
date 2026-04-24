@@ -6,4 +6,3 @@ coverage/
 *.sqlite-journal
 .env.local
 .env
-.env.test
